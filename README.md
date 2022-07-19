@@ -5,6 +5,8 @@
 - Twitter Developer
 - Facebook Graph API Knowledge
 - API Knowledge
+- Javascript Knowledge
+- Google Script Knowledge
 
 ## Happy Coding!
 
