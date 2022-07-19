@@ -1,14 +1,19 @@
+const userProperties = PropertiesService.getUserProperties();
+const fb_token = userProperties.getProperty('FB_TOKEN');
+const fb_id = userProperties.getProperty('FB_ID');
+const ig_business_id = userProperties.getProperty('IG_BUSINESS_ID');
+const ig_business_token = userProperties.getProperty('IG_BUSINESS_TOKEN');
+const app_id = userProperties.getProperty('APP_ID');
+
 var robot = {
-  tkn: "YOUR_TOKEN_HERE",
-  igBusinessID: "YOUR_IG_BUSINESS_ID_HERE",
-  appID: "YOUR_APP_ID_HERE",
+  tkn: fb_token,
+  igBusinessID: ig_business_id,
+  appID: app_id,
   // Dhohir Pradana BOT - Generated on 18 July 2022
-  igBusinessToken: "YOUR_IG_BUSINESS_TOKEN_HERE",
-//   ytKey: "YOUR_YT_KEY_HERE",
-//   grub: ["100044296486382", "100068922445885"],
-  token: "YOUR_TOKEN_HERE",
+  igBusinessToken: ig_business_token,
+  token: fb_token,
   fbid:
-    "YOUR_FB_ID_HERE",
+    fb_id,
   emot: ['🔥', '♖', '✿', '♠', '💞', '★', '🎀', '🌷', '✌', '🍭', '😾', '🐟', '♪', '⛵', '👤', '🐳', '💙', '👣', '🍫', '💎', '♕', 'ඏ', '🐤', '●', '◆', '◈', '❖', '《', '》', '⫷', '⫸', '✓', '✔', 'ツ', '™', '©', '®', '✤', '⚜', '☘', '☄', '✍']
 };
 
